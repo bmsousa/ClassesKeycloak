@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "server": "10.3.2.164",
+            "port": 9009,
+            "previewLimit": 50,
+            "askForPassword": true,
+            "driver": "Cassandra",
+            "name": "aiot-rs-prod.dei.uc.pt:9009",
+            "username": "cassandra"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "localhost",
+            "database": "keycloak",
+            "username": "keycloak"
+        }
+    ]
+}
