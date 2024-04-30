@@ -33,7 +33,7 @@ function generateAuthorizationRequest() {
 
     req += '?client_id=' + clientId;
     req += '&response_type=code';
-    req += '&client_secret=dYZKf7B8FmJXJegxSTN14be9aNOB1cV7'
+    //req += '&client_secret='
     req += '&redirect_uri=' + document.location.href.split('?')[0];
     if ('' !== scope) {
         req += '&scope=' + scope;
@@ -49,7 +49,7 @@ function loadTokens(code) {
     var params = 'grant_type=authorization_code';
     params += '&code=' + code;
     params += '&client_id=' + clientId;
-    params += '&client_secret=dYZKf7B8FmJXJegxSTN14be9aNOB1cV7'
+    //params += '&client_secret='
     params += '&redirect_uri=' + document.location.href.split('?')[0];
 
     var req = new XMLHttpRequest();
