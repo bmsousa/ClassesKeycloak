@@ -7,6 +7,7 @@
 
 Credits to https://github.com/PacktPublishing/Keycloak---Identity-and-Access-Management-for-Modern-Applications-2nd-Edition 
 
+Useful information: https://access.redhat.com/documentation/en-us/red_hat_build_of_keycloak/22.0/html-single/server_guide/index#all-config-
 
 ## Step 1 - Build apps (frontend and backend)
 
