@@ -15,7 +15,6 @@ services:
   keycloak:
     depends_on:
       - postgres
-    container_name: keycloak:${KEYCLOAK_VERSION}
     environment:
       DB_VENDOR: postgres
       DB_ADDR: postgres

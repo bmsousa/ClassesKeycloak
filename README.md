@@ -36,7 +36,7 @@ Credits to https://github.com/PacktPublishing/Keycloak---Identity-and-Access-Man
 
 ### Step 1 Build Keycloak (if you want to perform customizations)
 The Dockerfile demonstrates how to compile keycloak with support for HTTPS.
-```sudo docker build . -t keycloak```
+```sudo docker build . -t keycloak:24.0.2```
 
 ### Step 2 Run with Docker compose
 To start with docker compose do:
