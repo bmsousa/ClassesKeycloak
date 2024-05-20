@@ -42,3 +42,13 @@ The Dockerfile demonstrates how to compile keycloak with support for HTTPS.
 To start with docker compose do:
 
 ```docker-compose -f compose.yml up```
+
+### Step 3 Configure DNS resolution
+Edit the file **/etc/hosts** and add:
+```<IP address> keycloak ```
+Where IP Address is the IP address of your machine, or IP from the docker network.
+
+### Step 4 Access the Admin console
+In your browser visit the URL:
+```https://keycloak:8443```
+Accept the security risk, as the certificate will not be considered valid.

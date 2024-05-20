@@ -27,6 +27,7 @@ services:
       KC_DB_URL: ${KC_DB_URL}
       KC_DB_USERNAME: ${POSTGRESQL_USER}
       KC_DB_PASSWORD: ${POSTGRESQL_PASS}
+      KC_HOSTNAME: keycloak
     image: keycloak:${KEYCLOAK_VERSION}
     ports:
       - 8080:8080
